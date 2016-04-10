@@ -1,5 +1,5 @@
 .catalog:
-  name: Jenkins
+  name: Jenkins2
   version: 1.642.2-rancher1
   description: |
     Jenkins CI management server.
@@ -28,4 +28,3 @@ jenkins-primary:
   metadata:
     plugins: |
       ${plugins}
-

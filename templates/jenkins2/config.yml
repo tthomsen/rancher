@@ -1,6 +1,6 @@
 ---
-  name: "Jenkins"
-  description: "Fork of Rancher Jenkins"
+  name: "Jenkins 2.0 Beta"
+  description: "Jenkins 2.0 Beta"
   version: 0
   maintainer: "Travis N. Thomsen travis.n.thomsen@gmail.com"
   license: "Apache"

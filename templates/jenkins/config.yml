@@ -1,0 +1,7 @@
+---
+  name: "Jenkins"
+  description: "Fork of Rancher Jenkins"
+  version: 0
+  maintainer: "Travis N. Thomsen travis.n.thomsen@gmail.com"
+  license: "Apache"
+  projectURL: "https://github.com/tthomsen/rancher"

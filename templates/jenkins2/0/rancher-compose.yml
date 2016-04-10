@@ -4,6 +4,16 @@
   description: |
     Jenkins CI management server.
   questions:
+    - variable: "PPORT"
+      label: "Jenkins Public Port"
+      default: 8080
+      required: true
+      type: "int"
+    - variable: "SPORT"
+      label: "Jenkins Slave Port"
+      default: 50000
+      required: true
+      type: "int"
     - variable: "plugins"
       type: "multiline"
       label: "List of Plugins"

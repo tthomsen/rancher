@@ -1,8 +1,8 @@
 jenkins-primary:
   image: "jenkins:2.0-beta-1"
   ports:
-    - "8085:8080"
-    - "50000:50000"
+    - ${PPORT}:8080
+    - ${SPORT}:50000
   labels:
     io.rancher.sidekicks: jenkins-plugins,jenkins-datavolume
     io.rancher.container.hostname_override: container_name
